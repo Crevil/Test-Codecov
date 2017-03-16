@@ -1,0 +1,22 @@
+{
+  "name": "test-codecov",
+  "version": "1.0.0",
+  "description": "Test for codecov-node on Windows",
+  "main": "index.js",
+  "scripts": {
+    "post-coverage": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crevil/test-codecov.git"
+  },
+  "author": "Crevil <https://github.com/crevil>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crevil/test-codecov/issues"
+  },
+  "homepage": "https://github.com/Crevil/test-codecov#readme",
+  "devDependencies": {
+    "codecov": "2.0.1"
+  }
+}
